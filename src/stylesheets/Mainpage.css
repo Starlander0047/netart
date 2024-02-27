@@ -61,6 +61,7 @@
 {
     width: 97%;
     text-align: center;
+    margin-top: 20px;
 }
 .redPipe /* To make red pipes in the footer */
 {
@@ -96,7 +97,7 @@
     }
     #boldMargin
     {
-        margin-right: 70px;
+        margin-right: 9%;
     }
     .leftPart
     {
@@ -114,5 +115,10 @@
         justify-content: space-around;
         background: rgba(236,50,55,255);
     }
-
+}
+@media (max-width: 310px) {
+    .last img
+    {
+        width: 220px;
+    }
 }

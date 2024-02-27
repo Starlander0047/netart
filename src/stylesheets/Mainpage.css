@@ -1,0 +1,118 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgb(245, 245, 145, 0) , rgb(245, 245, 145, 1));
+}
+.upperBody
+{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 15px 0 60px 0;
+}
+.leftPart img
+{
+    height: auto;
+    width: 70%;
+}
+.rightPart img
+{
+    height: auto;
+    width: 100%;
+    margin: 15px 0 10px 0;
+}
+.rightPart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#boldMargin  /* to align the b tag above the right group image*/
+{
+    margin-right: 17%;
+    margin-bottom: 15px;
+}
+.lowerBody img
+{
+    margin: 15px 0;
+    width: 80%;
+    height: auto;
+}
+.lowerBody
+{
+    text-align: center;
+}
+.redLine
+{
+    width: 98%;
+    border: 2px solid red;
+    margin: 15px 5px;
+}
+.footer
+{
+    width: 97%;
+    text-align: center;
+}
+.redPipe /* To make red pipes in the footer */
+{
+    color: red;
+    font-size: x-large;
+}
+.last
+{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(236,50,55,255);
+    margin-bottom: 10px;
+}
+.last img
+{
+    width: 300px;
+}
+@media (max-width: 902px) {
+    .upperBody
+    {
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        flex-flow: column-reverse;
+    }
+    .leftPart img
+    {
+        height: auto;
+        width: 40%;
+        margin-top: 20px;
+    }
+    #boldMargin
+    {
+        margin-right: 70px;
+    }
+    .leftPart
+    {
+        text-align: center;
+    }
+    .rightPart img
+    {
+        margin: 15px 0 10px 0;
+    }
+    .last
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: rgba(236,50,55,255);
+    }
+
+}
